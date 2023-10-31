@@ -1,0 +1,36 @@
+// DOG YEARS PROJECT
+
+// first year = 10.5 second year = 10.5 third year & + = 4
+
+var myAge = 29;
+console.log(myAge);
+// my age.      used const. at first but step 4 asks to subtract 2 from age, went back and changed to var.
+
+var earlyYears = 2;
+console.log(earlyYears);
+// the first 2 years of the dogs life.
+
+earlyYears *= 10.5;
+console.log(earlyYears);
+// the orignial earlyYears was 2 multiplied by 10.5 will give a new value of 21.
+
+myAge -= 2;
+console.log(myAge);
+
+var laterYears = 25;
+console.log(laterYears);
+// the variable laterYears is my age subtracted by 2.
+
+laterYears *= 4;
+console.log(laterYears);
+// laterYears * 4 = the years after the age of 2 the dog is alive for.
+
+var myAgeInDogYears = earlyYears + laterYears;
+console.log(myAgeInDogYears);
+// my age in dog years.
+
+var myName = 'ben';
+console.log(name.toLowerCase());
+// my name in lower case letters. the action is .toLowerCase 
+
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
